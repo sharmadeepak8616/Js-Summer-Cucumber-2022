@@ -14,7 +14,7 @@ class Loginpage {
      * function to get if login error is displayed
      */
     async isLoginErrDisplayed() {
-        await this.commands.isWebElementDisplayed(this.loginErrorLocator);
+        return await this.commands.isWebElementDisplayed(this.loginErrorLocator);
     }
 
 

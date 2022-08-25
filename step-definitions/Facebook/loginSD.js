@@ -35,4 +35,4 @@ When(/^I click login button$/, async function() {
 
 Then(/^I verify error is displayed$/, async function() {
     expect(await loginpage.isLoginErrDisplayed(), 'Login error is NOT displayed').to.be.true;
-})
+});
