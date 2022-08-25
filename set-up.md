@@ -39,7 +39,9 @@ Above command will ask few questions, ans them as below
 
 16. Change step-definitions path in wdio.conf.js file (require: ['./step-definitions/**/*.js'],)
 
-17. Automate Facebook login testcases
+17. Add "Cucumber (Gherkin) Full Support" extension in VS-code
+
+18. Automate Facebook login testcases
     Scenario: Verify login gets error on empty login form
         Given I am on facebook landing page
         When I click login button
