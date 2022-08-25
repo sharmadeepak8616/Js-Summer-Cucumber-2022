@@ -1,0 +1,32 @@
+{
+  "name": "Js-Summer-Cucumber-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmadeepak8616/Js-Summer-Cucumber-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharmadeepak8616/Js-Summer-Cucumber-2022/issues"
+  },
+  "homepage": "https://github.com/sharmadeepak8616/Js-Summer-Cucumber-2022#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.23.0",
+    "chai": "^4.3.6",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.23.0",
+    "@wdio/local-runner": "^7.23.0",
+    "@wdio/spec-reporter": "^7.23.0",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}
