@@ -10,17 +10,17 @@
 8. Set up wdio config file
     Command: npx wdio config
 Above command will ask few questions, ans them as below
-? Where is your automation backend located? On my local machine
-? Which framework do you want to use? cucumber
-? Do you want to use a compiler? No!
-? Where are your feature files located? ./features/**/*.feature
-? Where are your step definitions located? ./features/step-definitions/steps.js
-? Do you want WebdriverIO to autogenerate some test files? No
-? Which reporter do you want to use? allure
-? Do you want to add a plugin to your test setup?
-? Do you want to add a service to your test setup? chromedriver
-? What is the base url? https://www.facebook.com
-? Do you want me to run `npm install` Yes
+    ? Where is your automation backend located? On my local machine
+    ? Which framework do you want to use? cucumber
+    ? Do you want to use a compiler? No!
+    ? Where are your feature files located? ./features/**/*.feature
+    ? Where are your step definitions located? ./features/step-definitions/steps.js
+    ? Do you want WebdriverIO to autogenerate some test files? No
+    ? Which reporter do you want to use? allure
+    ? Do you want to add a plugin to your test setup?
+    ? Do you want to add a service to your test setup? chromedriver
+    ? What is the base url? https://www.facebook.com
+    ? Do you want me to run `npm install` Yes
 
 9. Install chai
     Command: npm install chai
