@@ -1,0 +1,211 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "Verify login fields are enabled by default",
+      "uid" : "1af9876fdd732b61",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163493344,
+        "stop" : 1662163586578,
+        "duration" : 93234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    }, {
+      "name" : "Verify login fields are enabled by default",
+      "uid" : "8b8c483435e3aa94",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662162242299,
+        "stop" : 1662162279505,
+        "duration" : 37206
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Verify there are 46 links on the landing page",
+      "uid" : "af42dd867a1044dc",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163522462,
+        "stop" : 1662163586226,
+        "duration" : 63764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    }, {
+      "name" : "Verify there are 46 links on the landing page",
+      "uid" : "bd2fa621301d4053",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1662162243113,
+        "stop" : 1662162279592,
+        "duration" : 36479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "1-2",
+    "children" : [ {
+      "name" : "Verify there are 46 links on the landing page",
+      "uid" : "5b44e3b1faf2b7e5",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1662162294560,
+        "stop" : 1662162296902,
+        "duration" : 2342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    }, {
+      "name" : "Verify there are 46 links on the landing page",
+      "uid" : "dd546e38dfeb9287",
+      "parentUid" : "aaf9cc9bc103c872529dc4d1947b03c1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1662163503271,
+        "stop" : 1662163506506,
+        "duration" : 3235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    } ],
+    "uid" : "aaf9cc9bc103c872529dc4d1947b03c1"
+  }, {
+    "name" : "1-4",
+    "children" : [ {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "a7a430116b2464f",
+      "parentUid" : "6398ef4b2805317600e1163fefb7476a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662161697458,
+        "stop" : 1662161702221,
+        "duration" : 4763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    }, {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "74ec1e2b6307fe49",
+      "parentUid" : "6398ef4b2805317600e1163fefb7476a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662162269435,
+        "stop" : 1662162281198,
+        "duration" : 11763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    }, {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "ecba1139438adbb9",
+      "parentUid" : "6398ef4b2805317600e1163fefb7476a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163499888,
+        "stop" : 1662163513323,
+        "duration" : 13435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    } ],
+    "uid" : "6398ef4b2805317600e1163fefb7476a"
+  }, {
+    "name" : "1-3",
+    "children" : [ {
+      "name" : "Verify login fields are enabled by default",
+      "uid" : "fcf9e03c10b591bd",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662162247250,
+        "stop" : 1662162249716,
+        "duration" : 2466
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    }, {
+      "name" : "Verify login fields are enabled by default",
+      "uid" : "c688bd9ef2c4b4e9",
+      "parentUid" : "19820e2d6fe04f5bf84547313e2a1e84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662163496929,
+        "stop" : 1662163499582,
+        "duration" : 2653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    } ],
+    "uid" : "19820e2d6fe04f5bf84547313e2a1e84"
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "6ba6fdb153fd0ec5",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163522755,
+        "stop" : 1662163586216,
+        "duration" : 63461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    }, {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "546aadd7a00dab2a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662161687843,
+        "stop" : 1662161748130,
+        "duration" : 60287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    }, {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "56a7a83a44262285",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662162243112,
+        "stop" : 1662162282864,
+        "duration" : 39752
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  } ]
+}

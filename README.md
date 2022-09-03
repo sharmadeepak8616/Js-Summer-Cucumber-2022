@@ -6,7 +6,7 @@ To run a specific feature file: npx wdio run wdio.conf.js --spec ./features-file
 eg:
     npx wdio run wdio.conf.js --spec ./features/Facebook/login.feature
 
-To run a specific tag: npx wdio wdio.conf.js --cucumberOpts.tagExpression='@tag1 or @tag2'
+To run a specific tag: npx wdio wdio.conf.js --cucumberOpts.tagExpression='@tag1'
 eg:
     npx wdio wdio.conf.js --cucumberOpts.tagExpression '@login-1'
     npx wdio wdio.conf.js --cucumberOpts.tagExpression '@login-2 or @login-3'

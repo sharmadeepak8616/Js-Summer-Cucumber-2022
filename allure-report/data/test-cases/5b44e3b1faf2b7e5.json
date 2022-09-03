@@ -1,0 +1,101 @@
+{
+  "uid" : "5b44e3b1faf2b7e5",
+  "name" : "Verify there are 46 links on the landing page",
+  "fullName" : "Home page.Verify there are 46 links on the landing page",
+  "historyId" : "f3648aca0bd906733d0cff62f5cb5832",
+  "time" : {
+    "start" : 1662162294560,
+    "stop" : 1662162296902,
+    "duration" : 2342
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45",
+  "statusTrace" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45\n                    + expected - actual\n                \n                    -46\n                    +45\n                \n                    at World.<anonymous> (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/step-definitions/Facebook/loginSD.js:87:69)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45",
+    "statusTrace" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45\n                    + expected - actual\n                \n                    -46\n                    +45\n                \n                    at World.<anonymous> (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/step-definitions/Facebook/loginSD.js:87:69)",
+    "steps" : [ {
+      "name" : "Given I am on facebook homepage",
+      "time" : {
+        "start" : 1662162294564,
+        "stop" : 1662162296057,
+        "duration" : 1493
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I verify 45 links on the homepage",
+      "time" : {
+        "start" : 1662162296057,
+        "stop" : 1662162296901,
+        "duration" : 844
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45\n                    + expected - actual\n                \n                    -46\n                    +45\n                \n                    at World.<anonymous> (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/step-definitions/Facebook/loginSD.js:87:69)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify there are 46 links on the landing page"
+  }, {
+    "name" : "package",
+    "value" : "Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-104.0.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b44e3b1faf2b7e5.json",
+  "parameterValues" : [ "firefox-104.0.1" ]
+}

@@ -6,6 +6,12 @@ class Commands {
      * Input: locator
      */
     async findWebElement(locator) {
+        await $(locator).waitForDisplayed();
+        return await $(locator);
+    }
+
+    async findClickableWebElement(locator) {
+        await $(locator).waitForClickable();
         return await $(locator);
     }
 
@@ -14,6 +20,10 @@ class Commands {
      * Input: locator
      */
     async findWebElements(locator) {
+        await browser.waitUntil(async () => {
+            const elements = await $$(locator);
+            return elements.length > 0;
+        });
         return await $$(locator);
     }
 
@@ -22,7 +32,13 @@ class Commands {
      * Input: locator
      */
     async clickWebElement(locator) {
+        const element = await this.findClickableWebElement(locator);
+        await element.click();
+    }
+
+    async scrollAndClickWebElement(locator) {
         const element = await this.findWebElement(locator);
+        await element.scrollIntoView();
         await element.click();
     }
 
@@ -40,7 +56,7 @@ class Commands {
      * Input: locator
      */
     async isWebElementEnabled(locator) {
-        const element = await this.findWebElement(locator);
+        const element = await $(locator);
         return await element.isEnabled();
     }
 
@@ -49,8 +65,13 @@ class Commands {
      * Input: locator
      */
     async isWebElementDisplayed(locator) {
-        const element = await this.findWebElement(locator);
+        const element = await $(locator);
         return await element.isDisplayed();
+    }
+
+    async isWebElementDisplayedWithWait(locator) {
+        await $(locator).waitForDisplayed();
+        return await $(locator).isDisplayed();
     }
 
     /**
@@ -63,7 +84,7 @@ class Commands {
     }
 
     async getTextFromWebElement(locator) {
-        const element = this.findWebElement(locator);
+        const element = await this.findWebElement(locator);
         return await element.getText();
     }
 
@@ -99,6 +120,35 @@ class Commands {
                 break;
             }
         }
+    }
+
+    async getAllWindowHandles() {
+        await browser.waitUntil(async () => {
+            const allHandles = await browser.getWindowHandles();
+            return allHandles.length > 1;
+        });
+        return await browser.getWindowHandles();
+    }
+
+    async getCurrentWindowHandle() {
+        return await browser.getWindowHandle();
+    }
+
+    async switchToWindowHandle(handle) {
+        await browser.switchToWindow(handle);
+    }
+
+    async closeWebWindow() {
+        await browser.closeWindow();
+    }
+ 
+    async getWindowsCount() {
+        const allHandles = await this.getAllWindowHandles();
+        return allHandles.length;
+    }
+
+    async getWindowTitle() {
+        return await browser.getTitle();
     }
 
 

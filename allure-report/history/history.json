@@ -1,0 +1,121 @@
+{
+  "7378ed4aabf280621528e936d6b50832" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1af9876fdd732b61",
+      "status" : "broken",
+      "statusDetails" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+      "time" : {
+        "start" : 1662163493344,
+        "stop" : 1662163586578,
+        "duration" : 93234
+      }
+    } ]
+  },
+  "41ebd1568efff63040999acebf963a61" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ba6fdb153fd0ec5",
+      "status" : "broken",
+      "statusDetails" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+      "time" : {
+        "start" : 1662163522755,
+        "stop" : 1662163586216,
+        "duration" : 63461
+      }
+    } ]
+  },
+  "282431455ce51b656509337d57b04880" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af42dd867a1044dc",
+      "status" : "broken",
+      "statusDetails" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+      "time" : {
+        "start" : 1662163522462,
+        "stop" : 1662163586226,
+        "duration" : 63764
+      }
+    } ]
+  },
+  "f3648aca0bd906733d0cff62f5cb5832" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dd546e38dfeb9287",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45",
+      "time" : {
+        "start" : 1662163503271,
+        "stop" : 1662163506506,
+        "duration" : 3235
+      }
+    } ]
+  },
+  "afc6bb0ff7993a38b29783b3abf7ee42" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecba1139438adbb9",
+      "status" : "broken",
+      "statusDetails" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1662163499888,
+        "stop" : 1662163513323,
+        "duration" : 13435
+      }
+    } ]
+  },
+  "b6625e57f56d9cbebf47fa87bd44b0f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c688bd9ef2c4b4e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662163496929,
+        "stop" : 1662163499582,
+        "duration" : 2653
+      }
+    } ]
+  }
+}

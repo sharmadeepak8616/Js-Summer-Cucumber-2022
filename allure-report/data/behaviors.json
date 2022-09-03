@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Verify login fields are enabled by default",
+    "uid" : "1af9876fdd732b61",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1662163493344,
+      "stop" : 1662163586578,
+      "duration" : 93234
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-105.0.5195.52" ]
+  }, {
+    "name" : "Verify login fields are enabled by default",
+    "uid" : "c688bd9ef2c4b4e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1662163496929,
+      "stop" : 1662163499582,
+      "duration" : 2653
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-104.0.1" ]
+  }, {
+    "name" : "Verify current date is selected on sign up form",
+    "uid" : "ecba1139438adbb9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1662163499888,
+      "stop" : 1662163513323,
+      "duration" : 13435
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-104.0.1" ]
+  }, {
+    "name" : "Verify there are 46 links on the landing page",
+    "uid" : "dd546e38dfeb9287",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1662163503271,
+      "stop" : 1662163506506,
+      "duration" : 3235
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "firefox-104.0.1" ]
+  }, {
+    "name" : "Verify there are 46 links on the landing page",
+    "uid" : "af42dd867a1044dc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1662163522462,
+      "stop" : 1662163586226,
+      "duration" : 63764
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-105.0.5195.52" ]
+  }, {
+    "name" : "Verify current date is selected on sign up form",
+    "uid" : "6ba6fdb153fd0ec5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1662163522755,
+      "stop" : 1662163586216,
+      "duration" : 63461
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-105.0.5195.52" ]
+  } ]
+}

@@ -1,0 +1,122 @@
+{
+  "uid" : "dd546e38dfeb9287",
+  "name" : "Verify there are 46 links on the landing page",
+  "fullName" : "Home page.Verify there are 46 links on the landing page",
+  "historyId" : "f3648aca0bd906733d0cff62f5cb5832",
+  "time" : {
+    "start" : 1662163503271,
+    "stop" : 1662163506506,
+    "duration" : 3235
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45",
+  "statusTrace" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45\n                    + expected - actual\n                \n                    -46\n                    +45\n                \n                    at World.<anonymous> (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/step-definitions/Facebook/loginSD.js:87:69)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45",
+    "statusTrace" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45\n                    + expected - actual\n                \n                    -46\n                    +45\n                \n                    at World.<anonymous> (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/step-definitions/Facebook/loginSD.js:87:69)",
+    "steps" : [ {
+      "name" : "Given I am on facebook homepage",
+      "time" : {
+        "start" : 1662163503274,
+        "stop" : 1662163505817,
+        "duration" : 2543
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I verify 45 links on the homepage",
+      "time" : {
+        "start" : 1662163505817,
+        "stop" : 1662163506506,
+        "duration" : 689
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45\n                    + expected - actual\n                \n                    -46\n                    +45\n                \n                    at World.<anonymous> (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/step-definitions/Facebook/loginSD.js:87:69)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2afd542556a46ce5",
+        "name" : "Screenshot",
+        "source" : "2afd542556a46ce5.png",
+        "type" : "image/png",
+        "size" : 63650
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-2"
+  }, {
+    "name" : "suite",
+    "value" : "Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify there are 46 links on the landing page"
+  }, {
+    "name" : "package",
+    "value" : "Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-104.0.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b44e3b1faf2b7e5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45",
+      "time" : {
+        "start" : 1662162294560,
+        "stop" : 1662162296902,
+        "duration" : 2342
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "dd546e38dfeb9287.json",
+  "parameterValues" : [ "firefox-104.0.1" ]
+}

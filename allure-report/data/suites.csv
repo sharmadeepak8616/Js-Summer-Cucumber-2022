@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Sep 02 20:05:22 EDT 2022","Fri Sep 02 20:06:26 EDT 2022","63461","","Sign Up","","Sign Up","Verify current date is selected on sign up form","Verify current date is selected on sign up form",""
+"broken","Fri Sep 02 20:04:59 EDT 2022","Fri Sep 02 20:05:13 EDT 2022","13435","","Sign Up","","Sign Up","Verify current date is selected on sign up form","Verify current date is selected on sign up form",""
+"failed","Fri Sep 02 20:05:03 EDT 2022","Fri Sep 02 20:05:06 EDT 2022","3235","","Home page","","Home page","Verify there are 46 links on the landing page","Verify there are 46 links on the landing page",""
+"broken","Fri Sep 02 20:05:22 EDT 2022","Fri Sep 02 20:06:26 EDT 2022","63764","","Home page","","Home page","Verify there are 46 links on the landing page","Verify there are 46 links on the landing page",""
+"passed","Fri Sep 02 20:04:56 EDT 2022","Fri Sep 02 20:04:59 EDT 2022","2653","","Login","","Login","Verify login fields are enabled by default","Verify login fields are enabled by default",""
+"broken","Fri Sep 02 20:04:53 EDT 2022","Fri Sep 02 20:06:26 EDT 2022","93234","","Login","","Login","Verify login fields are enabled by default","Verify login fields are enabled by default",""

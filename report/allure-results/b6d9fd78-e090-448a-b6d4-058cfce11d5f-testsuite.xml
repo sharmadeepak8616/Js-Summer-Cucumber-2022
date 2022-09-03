@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662165999780' stop='1662166034668'>
+    <name>Sign Up</name>
+    <title>Sign Up</title>
+    <test-cases>
+        <test-case start='1662165999810' status='passed' stop='1662166034666'>
+            <name>Verify current date is selected on sign up form</name>
+            <title>Verify current date is selected on sign up form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.52'/>
+            </parameters>
+            <steps>
+                <step start='1662166032016' status='passed' stop='1662166032495'>
+                    <name>When I click Create New Account button</name>
+                    <title>When I click Create New Account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662166032495' status='passed' stop='1662166034665'>
+                    <name>Then I verify current date is selected in dropdown</name>
+                    <title>Then I verify current date is selected in dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

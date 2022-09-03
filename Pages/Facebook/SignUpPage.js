@@ -9,6 +9,8 @@ class SignUpPage {
     monthLocator = '#month';
     yearLocator = '#year';
     selectedDateLocator = "//select[@aria-label='Day']//option[@selected]";
+    selectedMonthLocator = "//select[@aria-label='Month']//option[@selected]";
+    selectedYearLocator = "//select[@aria-label='Year']//option[@selected]";
 
 
     // Functions in order to interact with the web-elements on the Sign up page
@@ -33,6 +35,14 @@ class SignUpPage {
 
     async getSelectedBirthDay() {
         return await this.commands.getTextFromWebElement(this.selectedDateLocator);
+    }
+
+    async getSelectedBirthMonth() {
+        return await this.commands.getTextFromWebElement(this.selectedMonthLocator);
+    }
+
+    async getSelectedBirthYear() {
+        return await this.commands.getTextFromWebElement(this.selectedYearLocator);
     }
 
 

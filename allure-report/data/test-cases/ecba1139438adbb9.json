@@ -1,0 +1,145 @@
+{
+  "uid" : "ecba1139438adbb9",
+  "name" : "Verify current date is selected on sign up form",
+  "fullName" : "Sign Up.Verify current date is selected on sign up form",
+  "historyId" : "afc6bb0ff7993a38b29783b3abf7ee42",
+  "time" : {
+    "start" : 1662163499888,
+    "stop" : 1662163513323,
+    "duration" : 13435
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms\n                    at async Commands.findClickableWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:14:9)\n                    at async Commands.clickWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:35:25)\n                    at async Homepage.clickCreateNewAccount (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Facebook/Homepage.js:111:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms\n                    at async Commands.findClickableWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:14:9)\n                    at async Commands.clickWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:35:25)\n                    at async Homepage.clickCreateNewAccount (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Facebook/Homepage.js:111:9)",
+    "steps" : [ {
+      "name" : "Given I am on facebook homepage",
+      "time" : {
+        "start" : 1662163499892,
+        "stop" : 1662163502687,
+        "duration" : 2795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I click Create New Account button",
+      "time" : {
+        "start" : 1662163502687,
+        "stop" : 1662163513322,
+        "duration" : 10635
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms\n                    at async Commands.findClickableWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:14:9)\n                    at async Commands.clickWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:35:25)\n                    at async Homepage.clickCreateNewAccount (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Facebook/Homepage.js:111:9)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4ff97b1fb3012d90",
+        "name" : "Screenshot",
+        "source" : "4ff97b1fb3012d90.png",
+        "type" : "image/png",
+        "size" : 163250
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then I verify current date is selected in dropdown",
+      "time" : {
+        "start" : 1662163513323,
+        "stop" : 1662163513323,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-4"
+  }, {
+    "name" : "suite",
+    "value" : "Sign Up"
+  }, {
+    "name" : "testClass",
+    "value" : "Sign Up"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify current date is selected on sign up form"
+  }, {
+    "name" : "package",
+    "value" : "Sign Up"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-104.0.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "74ec1e2b6307fe49",
+      "status" : "broken",
+      "statusDetails" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms",
+      "time" : {
+        "start" : 1662162269435,
+        "stop" : 1662162281198,
+        "duration" : 11763
+      }
+    }, {
+      "uid" : "a7a430116b2464f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662161697458,
+        "stop" : 1662161702221,
+        "duration" : 4763
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ecba1139438adbb9.json",
+  "parameterValues" : [ "firefox-104.0.1" ]
+}

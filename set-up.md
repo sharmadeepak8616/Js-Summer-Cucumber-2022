@@ -1,5 +1,5 @@
 1. Create a new repo in github
-2. CLone the new repo in local
+2. Clone the new repo in local
 3. Go in to the new repo in local
 4. Create new branch
 5. Checkout on the new-branch

@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+      "children" : [ {
+        "name" : "Verify login fields are enabled by default",
+        "uid" : "1af9876fdd732b61",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662163493344,
+          "stop" : 1662163586578,
+          "duration" : 93234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-105.0.5195.52" ]
+      }, {
+        "name" : "Verify there are 46 links on the landing page",
+        "uid" : "af42dd867a1044dc",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662163522462,
+          "stop" : 1662163586226,
+          "duration" : 63764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-105.0.5195.52" ]
+      }, {
+        "name" : "Verify current date is selected on sign up form",
+        "uid" : "6ba6fdb153fd0ec5",
+        "parentUid" : "e639a9ad30ef63977eb12890cdf17798",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662163522755,
+          "stop" : 1662163586216,
+          "duration" : 63461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-105.0.5195.52" ]
+      } ],
+      "uid" : "e639a9ad30ef63977eb12890cdf17798"
+    }, {
+      "name" : "Error: element (\"//a[text()=\"Create New Account\"]\") still not clickable after 10000ms",
+      "children" : [ {
+        "name" : "Verify current date is selected on sign up form",
+        "uid" : "ecba1139438adbb9",
+        "parentUid" : "19c3ea0cd1ba2f6fb82b2f77afa7224a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662163499888,
+          "stop" : 1662163513323,
+          "duration" : 13435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-104.0.1" ]
+      } ],
+      "uid" : "19c3ea0cd1ba2f6fb82b2f77afa7224a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Links of Homepage is not as expected: expected 46 to equal 45",
+      "children" : [ {
+        "name" : "Verify there are 46 links on the landing page",
+        "uid" : "dd546e38dfeb9287",
+        "parentUid" : "b22abfffcc2bb5098d18dbf6a742acb1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1662163503271,
+          "stop" : 1662163506506,
+          "duration" : 3235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "firefox-104.0.1" ]
+      } ],
+      "uid" : "b22abfffcc2bb5098d18dbf6a742acb1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "6ba6fdb153fd0ec5",
+  "name" : "Verify current date is selected on sign up form",
+  "time" : {
+    "start" : 1662163522755,
+    "stop" : 1662163586216,
+    "duration" : 63461
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ecba1139438adbb9",
+  "name" : "Verify current date is selected on sign up form",
+  "time" : {
+    "start" : 1662163499888,
+    "stop" : 1662163513323,
+    "duration" : 13435
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dd546e38dfeb9287",
+  "name" : "Verify there are 46 links on the landing page",
+  "time" : {
+    "start" : 1662163503271,
+    "stop" : 1662163506506,
+    "duration" : 3235
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "af42dd867a1044dc",
+  "name" : "Verify there are 46 links on the landing page",
+  "time" : {
+    "start" : 1662163522462,
+    "stop" : 1662163586226,
+    "duration" : 63764
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c688bd9ef2c4b4e9",
+  "name" : "Verify login fields are enabled by default",
+  "time" : {
+    "start" : 1662163496929,
+    "stop" : 1662163499582,
+    "duration" : 2653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1af9876fdd732b61",
+  "name" : "Verify login fields are enabled by default",
+  "time" : {
+    "start" : 1662163493344,
+    "stop" : 1662163586578,
+    "duration" : 93234
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

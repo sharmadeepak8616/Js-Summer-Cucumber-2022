@@ -1,4 +1,5 @@
 const Commands = require("../Commands");
+const { faker } = require('@faker-js/faker');
 
 class Homepage {
 
@@ -7,7 +8,8 @@ class Homepage {
     loginEmailLocator = '#email';
     loginPwdLocator = '#pass';
     loginBtnLocator = '<button>';
-    createNewAccountLocator = '=Create New Account';
+    createNewAccountLocator = '//a[text()="Create New Account" or text()="Create new account"]';
+    // OR -> //a[contains(text(), 'ccount')]
 
 
 
@@ -19,6 +21,7 @@ class Homepage {
      */
     async enterLoginEmail(loginEmail) {
         await this.commands.typeInWebElement(this.loginEmailLocator, loginEmail);
+        const fName = faker.name.firstName();
     }
 
 
@@ -33,6 +36,15 @@ class Homepage {
 
     /**
      * function to click on login button
+     * Input: locator
+     *  
+     */
+    async clickLoginButton() {
+        await this.commands.clickWebElement(this.loginBtnLocator);
+    }
+
+    /**
+     * function to click on Create New Account button
      * Input: locator
      *  
      */
@@ -99,7 +111,33 @@ class Homepage {
         await this.commands.clickWebElement(this.createNewAccountLocator);
     }
 
+    async getAllLinks() {
+        return await this.commands.findWebElements('a');
+    }
 
+    async getHomePageTitle() {
+        return await this.commands.getWindowTitle();
+    }
+
+    async clickLinkOnFooter(linkName) {
+        await this.commands.scrollAndClickWebElement(`=${linkName}`);
+    }
+
+    async getNumberOfWindows() {
+        return await this.commands.getWindowsCount();
+    }
+
+    async closeWindowExceptHome() {
+        const allHandles = await this.commands.getAllWindowHandles();
+        const homeHandle = await this.commands.getCurrentWindowHandle();
+        for (const handle of allHandles) {
+            await this.commands.switchToWindowHandle(handle);
+            if (handle !== homeHandle) {
+                await this.commands.closeWebWindow();
+            }
+        }
+        await this.commands.switchToWindowHandle(homeHandle);
+    }
 
 
 }

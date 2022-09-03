@@ -4,11 +4,11 @@ class MyMomentFunctions {
 
 
     static getCurrentDate() {
-        return moment().date();
+        return moment().format('D');
     }
 
-    static addInCurrentDate() {
-        
+    static getCurrentMomentInFormat(userFormat) {
+        return moment().format(userFormat);
     }
 
 }

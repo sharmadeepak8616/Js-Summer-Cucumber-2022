@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662166002224' stop='1662166014317'>
+    <name>Sign Up</name>
+    <title>Sign Up</title>
+    <test-cases>
+        <test-case start='1662166002246' status='broken' stop='1662166014310'>
+            <name>Verify current date is selected on sign up form</name>
+            <title>Verify current date is selected on sign up form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-104.0.1'/>
+            </parameters>
+            <steps>
+                <step start='1662166003960' status='broken' stop='1662166014310'>
+                    <name>When I click Create New Account button</name>
+                    <title>When I click Create New Account button</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3d0bbc00-11b2-4dca-9927-6a6a26dbce02-attachment.png' type='image/png' size='63693'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1662166014310' status='canceled' stop='1662166014310'>
+                    <name>Then I verify current date is selected in dropdown</name>
+                    <title>Then I verify current date is selected in dropdown</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("//a[text()="Create New Account"]") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("//a[text()="Create New Account"]") still not clickable after 10000ms
+                    at async Commands.findClickableWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:14:9)
+                    at async Commands.clickWebElement (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Commands.js:35:25)
+                    at async Homepage.clickCreateNewAccount (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/Pages/Facebook/Homepage.js:111:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

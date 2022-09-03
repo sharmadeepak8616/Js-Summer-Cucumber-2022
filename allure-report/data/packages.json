@@ -1,0 +1,95 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Login",
+    "children" : [ {
+      "name" : "Verify login fields are enabled by default",
+      "uid" : "1af9876fdd732b61",
+      "parentUid" : "19e178db3ae5a62d0eab84dca72fd59e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163493344,
+        "stop" : 1662163586578,
+        "duration" : 93234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    }, {
+      "name" : "Verify login fields are enabled by default",
+      "uid" : "c688bd9ef2c4b4e9",
+      "parentUid" : "19e178db3ae5a62d0eab84dca72fd59e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1662163496929,
+        "stop" : 1662163499582,
+        "duration" : 2653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    } ],
+    "uid" : "19e178db3ae5a62d0eab84dca72fd59e"
+  }, {
+    "name" : "Sign Up",
+    "children" : [ {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "ecba1139438adbb9",
+      "parentUid" : "f5da6c4536e3ba8e4c0e742779996e14",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163499888,
+        "stop" : 1662163513323,
+        "duration" : 13435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    }, {
+      "name" : "Verify current date is selected on sign up form",
+      "uid" : "6ba6fdb153fd0ec5",
+      "parentUid" : "f5da6c4536e3ba8e4c0e742779996e14",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163522755,
+        "stop" : 1662163586216,
+        "duration" : 63461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    } ],
+    "uid" : "f5da6c4536e3ba8e4c0e742779996e14"
+  }, {
+    "name" : "Home page",
+    "children" : [ {
+      "name" : "Verify there are 46 links on the landing page",
+      "uid" : "dd546e38dfeb9287",
+      "parentUid" : "44453d85b0e4a6202ffb2597c4eec933",
+      "status" : "failed",
+      "time" : {
+        "start" : 1662163503271,
+        "stop" : 1662163506506,
+        "duration" : 3235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-104.0.1" ]
+    }, {
+      "name" : "Verify there are 46 links on the landing page",
+      "uid" : "af42dd867a1044dc",
+      "parentUid" : "44453d85b0e4a6202ffb2597c4eec933",
+      "status" : "broken",
+      "time" : {
+        "start" : 1662163522462,
+        "stop" : 1662163586226,
+        "duration" : 63764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-105.0.5195.52" ]
+    } ],
+    "uid" : "44453d85b0e4a6202ffb2597c4eec933"
+  } ]
+}

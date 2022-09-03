@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1662163503238' stop='1662163506520'>
+    <name>Home page</name>
+    <title>Home page</title>
+    <test-cases>
+        <test-case start='1662163503271' status='failed' stop='1662163506506'>
+            <name>Verify there are 46 links on the landing page</name>
+            <title>Verify there are 46 links on the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-104.0.1'/>
+            </parameters>
+            <steps>
+                <step start='1662163503274' status='passed' stop='1662163505817'>
+                    <name>Given I am on facebook homepage</name>
+                    <title>Given I am on facebook homepage</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1662163505817' status='failed' stop='1662163506506'>
+                    <name>Then I verify 45 links on the homepage</name>
+                    <title>Then I verify 45 links on the homepage</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a6749470-e775-42cc-99f2-40ed418684d2-attachment.png' type='image/png' size='63650'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>AssertionError: Links of Homepage is not as expected: expected 46 to equal 45</message>
+                <stack-trace>AssertionError: Links of Homepage is not as expected: expected 46 to equal 45
+                    + expected - actual
+                
+                    -46
+                    +45
+                
+                    at World.&lt;anonymous> (/Users/deepaksharma/Documents/git/Js-Summer-Cucumber-2022/step-definitions/Facebook/loginSD.js:87:69)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
