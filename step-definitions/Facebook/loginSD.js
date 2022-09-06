@@ -86,3 +86,25 @@ Then(/^I verify (.+) links on the homepage$/, async function(count) {
     const links = await homepage.getAllLinks();
     expect(links.length, 'Links of Homepage is not as expected').to.equal(Number(count));
 });
+
+When(/^user selects Saving account$/, () => {
+    // code selects Saving type
+})
+
+
+When(/^user selects Checking account$/, () => {
+    // code selects Saving type
+})
+
+When(/^user selects (Saving|Checking) account$/, (accType) => {
+    switch (accType) {
+        case 'Saving':
+            // code selects Saving type
+            break;
+        case 'Checking':
+            // code selects Checking type
+            break;
+        default:
+            break;
+    }
+})

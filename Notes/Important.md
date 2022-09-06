@@ -100,3 +100,11 @@ ALLURE-REPORT:
                         await browser.takeScreenshot();
                     }
                 },
+
+    To Save screenshot on failure in a folder:
+            in afterStep function (under Hooks):
+                afterStep: async function ( { error } ) {
+                    if(error) {
+                        await browser.saveScreenshot('report/screenshots/Fail_' + moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png');
+                    }
+                },

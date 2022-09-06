@@ -1,7 +1,10 @@
 const Commands = require("../Commands");
 const { faker } = require('@faker-js/faker');
+const Searchpage = require('../Hotels/Searchpage');
 
 class Homepage {
+
+    spage = new Searchpage();
 
     commands = new Commands();
     // Locators for web-elements on the Homepage (variables)
@@ -20,6 +23,7 @@ class Homepage {
      *  
      */
     async enterLoginEmail(loginEmail) {
+        await spage.waitForSearchByPropertyName();
         await this.commands.typeInWebElement(this.loginEmailLocator, loginEmail);
         const fName = faker.name.firstName();
     }
