@@ -1,6 +1,18 @@
 const moment = require("moment");
 
 exports.config = {
+    //
+    // ====================
+    // BrowserStack Configuration
+    // ====================
+    user: 'deepaksharma_07ayic',
+    key: 'Xy84osDzoApXE6bqH5HQ',
+    //
+    // username : deepaksharma_07ayic
+    // key : Xy84osDzoApXE6bqH5HQ
+    //
+    //
+
     // ====================
     // Runner Configuration
     // ====================
@@ -51,30 +63,31 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
         maxInstances: 5,
-        //
         browserName: 'chrome',
+        'bstack:options' : {
+		    "os" : "Windows",
+		    "osVersion" : "8",
+	    },
         acceptInsecureCerts: true
-        // If outputDir is provided WebdriverIO can capture driver session logs
-        // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        // excludeDriverLogs: ['bugreport', 'server'],
     },
     {
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
         maxInstances: 5,
-        //
         browserName: 'firefox',
+        'bstack:options' : {
+		    "os" : "Windows",
+		    "osVersion" : "11",
+	    },
         acceptInsecureCerts: true
-        // If outputDir is provided WebdriverIO can capture driver session logs
-        // it is possible to configure which logTypes to include/exclude.
-        // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        // excludeDriverLogs: ['bugreport', 'server'],
+    },
+    {
+        maxInstances: 5,
+        browserName: 'edge',
+        'bstack:options': {
+            os: 'Windows',
+            osVersion: '11'
+        },
+        acceptInsecureCerts: true
     }],
     //
     // ===================
@@ -123,7 +136,11 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: [
+        ['browserstack', {
+            preferScenarioName: true
+        }]
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

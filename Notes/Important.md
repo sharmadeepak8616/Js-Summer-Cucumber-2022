@@ -108,3 +108,62 @@ ALLURE-REPORT:
                         await browser.saveScreenshot('report/screenshots/Fail_' + moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png');
                     }
                 },
+
+
+BROWSER-STACK SET UP:
+
+    WebDriver-IO Docs:
+        https://webdriver.io/docs/browserstack-service
+
+    Browser Stack Docs:
+        https://www.browserstack.com/docs/automate/selenium/getting-started/nodejs/webdriverio
+
+    To Add Browser Stack:
+        npm install @wdio/browserstack-service --save-dev
+    
+        in wdio.conf.js:
+            exports.config
+                // ...
+                user: process.env.BROWSERSTACK_USERNAME,
+                key: process.env.BROWSERSTACK_ACCESS_KEY,
+                ...
+                ...
+                ...
+                services: [
+                    ['browserstack', {
+                        preferScenarioName: true
+                    }]
+                ],
+                ...
+                ...
+                capabilities: [{
+                    maxInstances: 5,
+                    browserName: 'chrome',
+                    'bstack:options' : {
+                        "os" : "Windows",
+                        "osVersion" : "8",
+                    },
+                    acceptInsecureCerts: true
+                },
+                {
+                    maxInstances: 5,
+                    browserName: 'firefox',
+                    'bstack:options' : {
+                        "os" : "Windows",
+                        "osVersion" : "11",
+                    },
+                    acceptInsecureCerts: true
+                },
+                {
+                    maxInstances: 5,
+                    browserName: 'edge',
+                    'bstack:options': {
+                        os: 'Windows',
+                        osVersion: '11'
+                    },
+                    acceptInsecureCerts: true
+                }],
+                ...
+                ...
+                ...
+            ],
