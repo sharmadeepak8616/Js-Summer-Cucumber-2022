@@ -353,23 +353,3 @@ exports.config = {
     // onReload: function(oldSessionId, newSessionId) {
     // }
 }
-
-/**
- * 12-16 :  No class
- *          complete any pending homeworks
- *          get framework set up completely
- *          get all pull requests reviewed and merged by Fri-16 eod
- *
- * Sprint-1
- * 19:      9:30-10:30am Sprint Planning Meeting 
- * 20 - 23: Daily stand up meeting @ 9:30am
- * 22-eod:  Create pull request
- * 23-eod:  Get pull request merged
- * 
- * Sprint-2:
- * 26:      9:30-10:30am Sprint Planning Meeting 
- * 27-30:   Daily stand up meeting @ 9:30am
- * 29-eod:  Create pull request
- * 30-eod:  Get pull request merged
- * 
- */
