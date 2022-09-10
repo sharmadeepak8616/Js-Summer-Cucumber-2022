@@ -1,22 +1,11 @@
 const moment = require("moment");
 
 exports.config = {
-    //
-    // ====================
-    // BrowserStack Configuration
-    // ====================
-    user: 'deepaksharma_07ayic',
-    key: 'Xy84osDzoApXE6bqH5HQ',
-    //
-    // username : deepaksharma_07ayic
-    // key : Xy84osDzoApXE6bqH5HQ
-    //
-    //
-
     // ====================
     // Runner Configuration
     // ====================
-    //
+    user: 'deepaksharma_07ayic',
+    key: 'Xy84osDzoApXE6bqH5HQ',
     //
     // ==================
     // Specify Test Files
@@ -65,19 +54,19 @@ exports.config = {
     capabilities: [{
         maxInstances: 5,
         browserName: 'chrome',
-        'bstack:options' : {
-		    "os" : "Windows",
-		    "osVersion" : "8",
-	    },
+        'bstack:options': {
+            os: 'Windows',
+            osVersion: '11'
+        },
         acceptInsecureCerts: true
     },
     {
         maxInstances: 5,
         browserName: 'firefox',
-        'bstack:options' : {
-		    "os" : "Windows",
-		    "osVersion" : "11",
-	    },
+        'bstack:options': {
+            os: 'Windows',
+            osVersion: '8'
+        },
         acceptInsecureCerts: true
     },
     {
@@ -85,7 +74,7 @@ exports.config = {
         browserName: 'edge',
         'bstack:options': {
             os: 'Windows',
-            osVersion: '11'
+            osVersion: '10'
         },
         acceptInsecureCerts: true
     }],
@@ -364,3 +353,23 @@ exports.config = {
     // onReload: function(oldSessionId, newSessionId) {
     // }
 }
+
+/**
+ * 12-16 :  No class
+ *          complete any pending homeworks
+ *          get framework set up completely
+ *          get all pull requests reviewed and merged by Fri-16 eod
+ *
+ * Sprint-1
+ * 19:      9:30-10:30am Sprint Planning Meeting 
+ * 20 - 23: Daily stand up meeting @ 9:30am
+ * 22-eod:  Create pull request
+ * 23-eod:  Get pull request merged
+ * 
+ * Sprint-2:
+ * 26:      9:30-10:30am Sprint Planning Meeting 
+ * 27-30:   Daily stand up meeting @ 9:30am
+ * 29-eod:  Create pull request
+ * 30-eod:  Get pull request merged
+ * 
+ */

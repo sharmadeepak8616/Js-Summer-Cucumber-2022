@@ -117,6 +117,8 @@ BROWSER-STACK SET UP:
 
     Browser Stack Docs:
         https://www.browserstack.com/docs/automate/selenium/getting-started/nodejs/webdriverio
+        OR
+        Refer "Quick Integration Guide" or "Get Started" after login
 
     To Add Browser Stack:
         npm install @wdio/browserstack-service --save-dev
@@ -124,8 +126,8 @@ BROWSER-STACK SET UP:
         in wdio.conf.js:
             exports.config
                 // ...
-                user: process.env.BROWSERSTACK_USERNAME,
-                key: process.env.BROWSERSTACK_ACCESS_KEY,
+                user: 'usernameFromBorwserStack',
+                key: 'accessKeyFromBorwserStack,
                 ...
                 ...
                 ...
@@ -167,3 +169,41 @@ BROWSER-STACK SET UP:
                 ...
                 ...
             ],
+
+JENKINS SET UP:
+
+    Jenkins Web Portal:
+        https://www.jenkins.io
+
+    Verify if Java is in the machine:
+        1. open terminal (Mac) or git bash (Windows)
+        2. execute command: java -version
+        3. If Java is not installed in machine, refer 
+            for mac:
+                https://medium.com/@kirebyte/using-homebrew-to-install-java-jdk11-on-macos-2021-4a90aa276f1c
+            for windows:
+                https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFJHAB
+        4. Go to https://www.jenkins.io/
+        5. Tap on DOWNLOAD button
+        6. Tap on respective operating system
+        7. (for MAC) Open terminal, execute below commands :
+                brew install jenkins-lts
+                brew services start jenkins-lts
+            (for WINDOWS), 
+                Go to https://www.jenkins.io/download/
+                Click on Windows option
+                Follow steps from following screen
+        8. Open "https://localhost:8080" in chrome window
+        9.To Unlock Jenkins, perform below command in terminal:
+            cat <filePath>
+        10. Submit password in the Jenkins-window
+        11. Create admin account
+        12. Set up Jenkins with Suggested Plugins
+
+
+Add NodeJS Plugin in the Jenkins
+    Refer class recording using Manage Jenkins and Global Tool Configuration
+
+
+Add Allure Plugin in the Jenkins
+    Refer class recording using Manage Jenkins and Global Tool Configuration
