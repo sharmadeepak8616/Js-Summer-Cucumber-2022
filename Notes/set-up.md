@@ -30,18 +30,18 @@ Above command will ask few questions, ans them as below
 12. In features folder: Create folder (name: Facebook)
 13. In Facebook folder: Create feature file (name: login.feature)
 
-11. In project folder: Create folder (name: step-definitions)
-12. In step-definitions folder: Create folder (name: Facebook)
-13. In Facebook folder: Create js file (name: loginSD.js)
+14. In project folder: Create folder (name: step-definitions)
+15. In step-definitions folder: Create folder (name: Facebook)
+16. In Facebook folder: Create js file (name: loginSD.js)
 
-14. In package.json Update chromedriver version based on installed chrome. ("chromedriver": "^103.0.0",)
-15. If you change package.json, perform -> npm install in project folder
+17. In package.json Update chromedriver version based on installed chrome. ("chromedriver": "^103.0.0",)
+18. If you change package.json, perform -> npm install in project folder
 
-16. Change step-definitions path in wdio.conf.js file (require: ['./step-definitions/**/*.js'],)
+19. Change step-definitions path in wdio.conf.js file (require: ['./step-definitions/**/*.js'],)
 
-17. Add "Cucumber (Gherkin) Full Support" extension in VS-code
+20. Add "Cucumber (Gherkin) Full Support" extension in VS-code
 
-18. Automate Facebook login testcases
+21. Automate Facebook login testcases
     Scenario: Verify login gets error on empty login form
         Given I am on facebook landing page
         When I click login button

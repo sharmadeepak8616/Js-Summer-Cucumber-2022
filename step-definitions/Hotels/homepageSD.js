@@ -11,7 +11,7 @@ Then(/^I click on Dates button on Homepage$/, async function () {
     await homepage.clickOnCalendarButton();
 });
 
-Then(/^I verify past dates on current month are displayed$/, async function () {
+Then(/^I verify past dates on current month are disabled$/, async function () {
     const disabledDates = await homepage.getDisableDatesForCurrentMonth();
     console.log(`\n\nabc -> ${disabledDates.length}\n\n`);
     const currentDate = MyMomentFunctions.getCurrentMomentInFormat('D');

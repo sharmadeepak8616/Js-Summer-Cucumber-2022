@@ -20,9 +20,9 @@ Feature: Sign Up
         And I verify custom radio button is not selected
         And I enter "abcd@1234" in confirm new password
 
-    @signup @dropdown @sanity @smoke
+    @signup @dropdown-2 @sanity @smoke
     Scenario: Verify user gets error if already registered
-        # Given I am on facebook homepage
+        Given I am on facebook homepage
         # When I click Create New Account button
         And I enter "John" in firstname
         And I enter "Doe" in laststname

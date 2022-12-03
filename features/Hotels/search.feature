@@ -3,7 +3,7 @@ Feature: Search
 
     @search-1 @sanity
     Scenario: Verify user entered data is correctly displayed on Search page
-        Given I am on hotels landing page
+        Given I am on hotels homepage
         When I enter "new" in going to
         And I select "MANHATTAN" from auto-suggestion
         And I select "December 25 2022" as check-in date

@@ -6,7 +6,7 @@ const { expect } = require("chai");
 const homepage = new Homepage();
 const searchpage = new Searchpage();
 
-When(/^I enter "(.+)" in going to$/, async function(destination) {
+When(/^I enter "new" in going to$/, async function(destination) {
     await homepage.enterDestination(destination);
 })
 

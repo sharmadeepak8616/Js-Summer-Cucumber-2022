@@ -119,6 +119,9 @@ BROWSER-STACK SET UP:
         https://www.browserstack.com/docs/automate/selenium/getting-started/nodejs/webdriverio
         OR
         Refer "Quick Integration Guide" or "Get Started" after login
+    
+    CAPABILITIES REFERRAL:
+        https://www.browserstack.com/automate/capabilities
 
     To Add Browser Stack:
         npm install @wdio/browserstack-service --save-dev
@@ -170,6 +173,7 @@ BROWSER-STACK SET UP:
                 ...
             ],
 
+
 JENKINS SET UP:
 
     Jenkins Web Portal:
@@ -207,3 +211,7 @@ Add NodeJS Plugin in the Jenkins
 
 Add Allure Plugin in the Jenkins
     Refer class recording using Manage Jenkins and Global Tool Configuration
+
+
+CUCUMBER AUTOCOMPLETE AND SD-link
+    Install plugin: Cucumber (Gherkin) Full Support
