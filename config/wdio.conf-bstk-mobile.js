@@ -53,12 +53,12 @@ exports.config = {
     //
     capabilities : [{
         'bstack:options' : {
-        "osVersion" : "14",
-        "deviceName" : "iPad Pro 12.9 2021",
-        "realMobile" : "true",
-        "local" : "false",
-        "userName" : "deepaksharma_07ayic",
-        "accessKey" : "Xy84osDzoApXE6bqH5HQ",
+            "osVersion" : "14",
+            "deviceName" : "iPad Pro 12.9 2021",
+            "realMobile" : "true",
+            "local" : "false",
+            "userName" : "deepaksharma_07ayic",
+            "accessKey" : "Xy84osDzoApXE6bqH5HQ",
         },
         "browserName" : "safari",
     }], 

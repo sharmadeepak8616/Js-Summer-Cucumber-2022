@@ -129,8 +129,8 @@ BROWSER-STACK SET UP:
         in wdio.conf.js:
             exports.config
                 // ...
-                user: 'usernameFromBorwserStack',
-                key: 'accessKeyFromBorwserStack,
+                user: 'usernameFromBrowserStack',
+                key: 'accessKeyFromBrowserStack,
                 ...
                 ...
                 ...
@@ -206,12 +206,25 @@ JENKINS SET UP:
 
 
 Add NodeJS Plugin in the Jenkins
-    Refer class recording using Manage Jenkins and Global Tool Configuration
+    Refer class recording using Manage Jenkins and Plugin Manager
+    Search for NodeJS
+    Add plugin
+    Go to Global Tool Configuration
+    Add NodeJs
+    Configure Job
+    Add Node (created in Global Tool Configuration) under Build Environment
 
 
 Add Allure Plugin in the Jenkins
-    Refer class recording using Manage Jenkins and Global Tool Configuration
+    Refer class recording using Manage Jenkins and Plugin Manager
+    Search for allure
+    Add plugin
+    Go to Global Tool Configuration
+    Add Allure
 
 
 CUCUMBER AUTOCOMPLETE AND SD-link
     Install plugin: Cucumber (Gherkin) Full Support
+
+To kill jobs running on a port:
+    kill $(lsof -t -i:9515)

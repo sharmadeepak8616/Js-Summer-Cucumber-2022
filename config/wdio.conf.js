@@ -240,7 +240,7 @@ exports.config = {
     // beforeCommand: function (commandName, args) {
     // },
     /**
-     * Cucumber Hooks
+     * Cucumber Hooks/Annotations
      *
      * Runs before a Cucumber Feature.
      * @param {String}                   uri      path to feature file
